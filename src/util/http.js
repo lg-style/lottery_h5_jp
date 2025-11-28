@@ -31,7 +31,7 @@ if (HOST.indexOf('prod') > -1) {
 if (HOST === 'dev') {
   let u = window.location.port == '8081'?'https://119330.xyz':''
   // apiUrl = u+'/api'
-  apiUrl = 'http://192.168.10.100:8082/'
+  apiUrl = 'http://52.221.240.40/api/'
   store.state.WS_URL = 'ws://192.168.254.121:8088/ws'
 }
 console.log('当前环境：' + HOST, apiUrl)
