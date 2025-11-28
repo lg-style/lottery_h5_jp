@@ -1,0 +1,588 @@
+#app.tabsBgOpenClass {
+    .titleBar {
+        background-image: linear-gradient(90deg, #7cc9fe, #1b5295) !important;
+    }
+
+    .lotteryPage {
+        ._titleBar {
+            padding-bottom: 30px;
+            height: 40px;
+
+            .titleBar_title {
+                height: 100%;
+            }
+        }
+
+        .lottery_right_box {
+            top: 9px;
+
+            .row {
+                font-size: 16.4062px;
+
+                .van-icon {
+                    font-size: 19px;
+                    position: relative;
+                    top: 2px;
+                }
+
+                .van-icon-play {
+                    display: none;
+                }
+
+                .van-icon-arrow-down {
+                    display: inline-block;
+                }
+            }
+        }
+
+        .activeNameClass {
+            height: 40px;
+
+            .text {
+                margin-top: 6.7499px;
+            }
+
+            .flex-center {
+                height: 31.1719px;
+
+                .van-icon {
+                    color: #fff;
+                }
+
+                .name {
+                    font-size: 15.5859px;
+                }
+            }
+        }
+
+        .top2 {
+            position: absolute;
+            top: 40px;
+            left: 0;
+            height: 30px;
+            line-height: 30px;
+            list-style: none;
+            margin-top: 0;
+            padding: 0;
+            color: #fff;
+
+            .item {
+                list-style: none;
+                float: left;
+                font-size: 16.4062px;
+
+                span.active {
+                    color: #356ae2;
+                }
+
+                span {
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .money_class div {
+            border-color: #04baee;
+        }
+
+        .bottomBox_box {
+            background-color: #d6d7da;
+
+            .box1 {
+                color: #4e8ad3;
+                font-size: 21.3237px;
+            }
+
+            .box2 {
+                color: red;
+            }
+
+            .box3 {
+                .van-button {
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 700;
+                    width: 100%;
+                    white-space: nowrap;
+                    height: 32px;
+                    background: linear-gradient(121deg, #4c98f2, #467bb9, #416690) #fff !important;
+                    border-width: 0;
+                    border-style: solid;
+                    -o-border-image: initial;
+                    border-image: initial;
+                    padding: 5px 11px;
+                    border-radius: 25px;
+                }
+            }
+        }
+
+        .topBox {
+            border-bottom: 1px solid #ddd;
+
+            .topBox_box {
+                border-top-color: #fff;
+                background-color: #fff;
+
+                .sd1 {
+                    color: #fff;
+                }
+
+                ._left {
+                    .lhc-openResult {
+                        .lhc-row1 {
+                            .box {
+                                margin-right: 9px;
+                            }
+
+                            .flex-center:last-child {
+                                .box {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+            }
+
+            .qiu {
+                box-shadow: 0 3px 1px #bbb59c;
+            }
+
+            ._pk10 {
+                border-radius: 5px;
+                font-size: 18.75px;
+            }
+
+            .zoushiBox {
+                .zoushiBox_row {
+                    background-color: #fff;
+                }
+
+                .zoushiBox_but {
+                    background: #dcdee6;
+
+                    .zsimg1 {
+                        display: none;
+                    }
+
+                    .zsimg2 {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+
+        .bodyBox {
+            margin-top: 1px;
+            border-top: 1px solid #ddd;
+
+            .lift_box {
+                width: 64.3333px;
+                background-color: #f2f2f2;
+
+                .lift_box_min {
+                    div {
+                        background: none;
+                        color: #666;
+                    }
+
+                    .dian {
+                        display: none;
+                    }
+
+                    .active {
+                        box-shadow: 0 0 0;
+                        background: #1b5295;
+                        font-weight: 400;
+                        color: #fff;
+                    }
+                }
+
+            }
+
+            .pk10Page,
+            .lhc {
+                width: calc(100% - 64.3333px);
+
+                .max_box {
+                    .zmTab-title {
+                        border-bottom: 1px solid #ddd;
+                        height: 32px;
+                        line-height: 32px;
+                    }
+
+                    .title {
+                        height: 31px;
+                        font-size: 14px;
+                        border-bottom-color: #ddd;
+                        background-color: #fafafa;
+                    }
+
+                    .but {
+                        font-size: 12px;
+                        width: 56.8646px;
+                        height: 100%;
+                        white-space: nowrap;
+                        box-sizing: border-box;
+                        text-align: center;
+                        -o-border-image: initial;
+                        border-image: initial;
+                        border: 2px solid #ccc;
+                        padding: 6px 4px;
+                    }
+
+                    .but_current {
+                        border: 2.5px solid #76a1d5;
+                    }
+
+                    .liuxiao {
+                        .current {
+                            border: 0.05333rem solid #35a8e0 !important;
+                            background: url("../../assets/首页/dui2.png") bottom right no-repeat;
+                            background-size: 0.4rem;
+                        }
+                    }
+
+                    .min_box-num {
+                        width: calc(100% / 2);
+
+                        .box {
+                            height: 48px;
+                            box-sizing: border-box;
+
+                            .name {
+                                font-size: 16px;
+                            }
+
+                            .odds {
+                                font-size: 16.4062px;
+                            }
+
+                            .lhc-red {
+                                color: #fff;
+                                background: linear-gradient(#fa7476, #ee0909);
+                                border: none;
+                                font-weight: 400;
+                            }
+
+                            .lhc-blue {
+                                color: #fff;
+                                background: linear-gradient(#619cff, #0a5eff);
+                                border: none;
+                                font-weight: 400;
+                            }
+
+                            .lhc-green {
+                                color: #fff;
+                                background: linear-gradient(#59e14b 1%, #3ac12c);
+                                border: none;
+                                font-weight: 400;
+                            }
+                        }
+
+                    }
+
+                    .min_box {
+                        .box {
+                            box-sizing: border-box;
+                            border-right-color: #ddd;
+                            box-shadow: inset 0 -0.02667rem 0.02667rem -0.02667rem #999;
+                            height: 48px;
+
+                            .name {
+                                color: #000;
+                                font-size: 16.4062px;
+                            }
+
+                            .car {
+                                height: 26px;
+                                width: 28px;
+                                display: inline-block;
+                                line-height: 26px;
+                                color: #fff;
+                                text-align: center;
+                                font-size: 20px;
+                                text-indent: -2px;
+                                letter-spacing: 0;
+                                font-weight: 700;
+                                font-style: italic;
+                                text-shadow: #000 0 0 2px;
+                                margin-right: 1px;
+                                margin-top: 2px;
+                                transform: none;
+                                border-radius: 4px;
+                            }
+
+                            .car01 {
+                                background: #fffd3c;
+                            }
+
+                            .car02 {
+                                background: #008cfa;
+                            }
+
+                            .car03 {
+                                background: #4d4d4d;
+                            }
+
+                            .car04 {
+                                background: #ff7022;
+                            }
+
+                            .car05 {
+                                background: #77fffd;
+                            }
+
+                            .car06 {
+                                background: #4224f8;
+                            }
+
+                            .car07 {
+                                background: #e3e3e3;
+                            }
+
+                            .car08 {
+                                background: #ff001a;
+                            }
+
+                            .car09 {
+                                font-size: 20px;
+                                text-indent: -2px;
+                                letter-spacing: 0;
+                                background: #790007;
+                            }
+
+                            .car10 {
+                                font-size: 18px;
+                                text-indent: -5px;
+                                letter-spacing: -2px;
+                                background: #32c533;
+                            }
+
+
+
+                            .odds {
+                                font-size: 16.4062px;
+                            }
+                        }
+
+                        .current {
+                            border: 2.5px solid #35a8e0 !important;
+                            background: url("../../assets/首页/dui2.png") right bottom no-repeat;
+                            background-size: 0.55123rem auto;
+
+                            .odds {
+                                color: red;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .ffc,
+            .xy28 {
+                width: calc(100% - 64.3333px);
+
+                .max_box {
+                    .title {
+                        height: 31px;
+                        font-size: 14px;
+                        border-bottom-color: #ddd;
+                        background-color: #fafafa;
+                    }
+
+                    .min_box {
+                        .box {
+                            border-right-color: #ddd;
+                            box-shadow: inset 0 -0.02667rem 0.02667rem -0.02667rem #999;
+                            height: 48px;
+                            box-sizing: border-box;
+
+                            .name {
+                                color: #000;
+                                font-size: 16.4062px;
+                            }
+
+                            .odds {
+                                font-size: 16.4062px;
+                            }
+                        }
+
+                        .current {
+                            border: 2.5px solid #35a8e0;
+                            background: url("../../assets/首页/dui2.png") right bottom no-repeat;
+                            background-size: 0.55123rem auto;
+
+                            .odds {
+                                color: red;
+                            }
+                        }
+                    }
+
+                    ._kuaijie {
+                        ._kuaijie_box {
+                            width: 56.28px;
+                            box-sizing: border-box;
+                            margin: 0;
+                            text-align: center;
+                        }
+
+                        ._kuaijie_box_1 {
+                            border-color: #76a1d5;
+                        }
+                    }
+
+                    ._kuaijie2 {
+                        font-size: 0;
+
+                        ._kuaijie_arr {
+                            height: 48px;
+                            position: relative;
+                            border-right: 0.02667rem solid #ddd;
+                            box-shadow: inset 0 -0.02667rem 0.02667rem -0.02667rem #999;
+
+                            span {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                display: inline-block;
+                                width: 28px;
+                                height: 28px;
+                                line-height: 28px;
+                                border-radius: 50%;
+                                background: linear-gradient(#619cff, #0a5eff);
+                                color: #fff;
+                                margin-right: 2px;
+                                font-size: 16px;
+                                font-weight: 400;
+                            }
+                        }
+
+                        ._kuaijie_arr_1 {
+                            border: 2.5px solid #35a8e0;
+                            background: url('../../assets/首页/dui2.png') right bottom no-repeat;
+                            background-size: 0.55123rem auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .lotteryPage_LHC {
+        .topBox {
+
+            .topBox_box {
+
+                ._right {
+                    .right_box1 {
+                        border-left: 1px solid #ddd;
+                    }
+
+                    .right_box2 {
+                        border-left: 1px solid #ddd;
+                    }
+
+                    .right_box3 {
+                        border-left: 1px solid #ddd;
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    .bottomBox {
+        .van-button {
+            background-color: #6b9abb !important;
+        }
+    }
+
+    .indexPage {
+        .homeMain {
+            .Security .openBody .inputBox .but {
+                background: -webkit-linear-gradient(bottom, #6b9abb 2%, #6b9abb 50%, #6b9abb 51%, #6b9abb);
+            }
+
+            .edhz .but {
+                background: -webkit-linear-gradient(bottom, #6b9abb 2%, #6b9abb 50%, #6b9abb 51%, #6b9abb);
+            }
+
+            .agentStatement .agentStatementTop .agentStatementTop_min1 {
+                background: -webkit-linear-gradient(top, #6b9abb, #84bde5);
+            }
+
+            .agentStatement .agentStatementTop .agentStatementTop_min2 {
+                background: #6b9abb
+            }
+
+            .userinfoPage .editShow_touxaing .touxiang_content .changeBtn .subBtn {
+                background: #6b9abb;
+            }
+
+            .homePage {
+                .top_title {
+                    background-image: linear-gradient(90deg, #7cc9fe, #1b5295);
+                }
+            }
+
+            .discover {
+                .discoverTop {
+                    background-image: linear-gradient(90deg, #7cc9fe, #1b5295);
+                }
+            }
+
+            .Service {
+                .text_imgBox {
+                    .agentIntroDes {
+                        h3 {
+                            color: #6b9abb;
+                        }
+                    }
+                }
+            }
+
+            .agentStatement,
+            .betRecord,
+            .MemberManage,
+            .tradingRecord {
+                .info {
+                    .info_but {
+                        background-color: #6b9abb;
+                    }
+                }
+
+                .tabsBox {
+                    ._tabShow {
+                        color: #6b9abb;
+                        border-bottom-color: #6b9abb;
+                    }
+                }
+            }
+
+            .createInvitationCode,
+            .InvitationCodeManage {
+                .info {
+                    .van-icon-success::before {
+                        color: #6b9abb;
+                    }
+                }
+
+                .inputBox .table_box {
+                    .van-collapse-item__title {
+                        background-color: #94adbf;
+                    }
+                }
+
+                .inputBox .table_box .van-collapse-item__title .table_box_input .but {
+                    background-color: #6b9abb;
+                }
+            }
+        }
+    }
+}

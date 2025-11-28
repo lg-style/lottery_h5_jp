@@ -1,0 +1,334 @@
+.van-uploader__upload-icon{
+  color: #000;
+}
+.loadingMsg {
+  height: 45.6937px;
+  line-height: 45.6937px;
+  font-size: 15.2312px;
+  color: #333;
+  border-bottom: 1px solid #d0d0d0;
+  text-align: center;
+}
+.van-toast{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  .van-toast__text{
+    width: 337.5px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    height: 42px;
+    line-height: 42px;
+    &:before {
+      font-family: iconfont;
+      content: ""
+    }
+  }
+}
+.van-overlay{
+  background: rgba(0,0,0,.4);
+}
+.van-list__finished-text {
+  height: 38.0729px;
+  line-height: 38.0729px;
+  text-align: center;
+  font-size: 15.2312px;
+  color: #4c4c4c;
+}
+
+.tips-security {
+  margin: 17px 23.6042px 3.5px;
+  padding: 8.70356px;
+  border: 1px solid #f8e2b9;
+  background: #fffdeb;
+  color: #f46e00;
+  font-size: 17.4px;
+}
+
+.van-action-sheet__item {
+  border-bottom: 1px solid #e0e0e080;
+
+  .van-action-sheet__name {
+    font-size: 19.5px;
+    color: #000;
+  }
+}
+
+.van-action-sheet__gap {
+  background-color: #efeef4;
+}
+
+.van-action-sheet__cancel {
+  font-size: 19.5px;
+  color: #000;
+}
+
+.b_num {
+  display: inline-block;
+  width: 30px;
+  height: 27px;
+  background-size: 100% 100% !important;
+}
+
+.kf {
+  .van-dialog__cancel {
+    color: red;
+  }
+}
+
+.turn {
+  animation: turn 1s linear infinite;
+}
+
+@keyframes turn {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(90deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(270deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.xy28-box {
+  box-sizing: border-box;
+  text-align: center;
+  min-width: 22px;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid #b4acac;
+  margin-top: 2px;
+  margin-right: -2px;
+  margin-left: 5px;
+  border-radius: 3px;
+  background: hsla(0, 0%, 100%, 0.19);
+  font-size: 12px;
+
+  span {
+    line-height: 0;
+  }
+}
+
+.qiu {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  background: -webkit-linear-gradient(top, #f86469, #bf1f24 75%);
+  border-radius: 50%;
+  margin: 0 3px;
+  font-size: 18.5px;
+  color: #fff;
+  text-align: center;
+}
+
+.pk10 {
+  width: 22px;
+  height: 22px;
+  margin-right: 1px;
+  margin-top: 10px;
+}
+
+.pk10_2 {
+  background-position: 0px -23px !important;
+}
+
+.pk10_3 {
+  background-position: 0px -46px !important;
+}
+
+.pk10_4 {
+  background-position: 0px -69px !important;
+}
+
+.pk10_5 {
+  background-position: 0px -92px !important;
+}
+
+.pk10_6 {
+  background-position: 0px -115px !important;
+}
+
+.pk10_7 {
+  background-position: 0px -138px !important;
+}
+
+.pk10_8 {
+  background-position: 0px -161px !important;
+}
+
+.pk10_9 {
+  background-position: 0px -184px !important;
+}
+
+.pk10_10 {
+  background-position: 0px -207px !important;
+}
+
+.car01 {
+  background: linear-gradient(#e0d905, #c6c004);
+}
+
+.car02 {
+  background: linear-gradient(#0092dd, #0278b5);
+}
+
+.car03 {
+  background: linear-gradient(#4b4b4b, #4b4b4b);
+}
+
+.car04 {
+  background: linear-gradient(#ff7600, #ee6f02);
+}
+
+.car05 {
+  background: linear-gradient(#17e2e5, #14c4c7);
+}
+
+.car06 {
+  background: linear-gradient(#5234ff, #452ae1);
+}
+
+.car07 {
+  background: linear-gradient(#bfbfbf, #a9a8a8);
+}
+
+.car08 {
+  background: linear-gradient(#ff2600, #e82402);
+}
+
+.car09 {
+  background: linear-gradient(#780b00, #5c0a02);
+}
+
+.car10 {
+  background: linear-gradient(#07bf00, #08a302);
+}
+
+._pk10 {
+  display: inline-block;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  margin-left: 2px;
+  text-align: center;
+  box-shadow: 0 1px 1px #bbb59c;
+  color: #fff;
+}
+
+.touzi {
+  height: 45px;
+  margin-right: 5px;
+}
+
+.lhc-row1 {
+  margin-top: 7px;
+
+  // 六合彩
+  .box {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+    font-size: 12px;
+  }
+
+  .lhc-red {
+    background: -webkit-linear-gradient(top, #f87b7e, #dc3b40 75%);
+  }
+
+  .lhc-green {
+    background: -webkit-linear-gradient(top, #69d893, #38b366 75%);
+  }
+
+  .lhc-blue {
+    background: -webkit-linear-gradient(top, #6ebefa, #218ddd 75%);
+  }
+}
+
+.lhc-row2 {
+  margin-top: 4px;
+
+  // 六合彩
+  .box {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    color: #000;
+    margin: 0 5px;
+    font-size: 15.2px;
+  }
+}
+
+// 上下居中
+.flex-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+// 向左对齐
+.flex-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+// 左右两边对齐
+.flex-between {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+// 居中对齐
+.flex-justify-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+// 向右对齐
+.flex-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
